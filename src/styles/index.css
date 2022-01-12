@@ -1,0 +1,44 @@
+:root {
+  --primary: #6200EE;
+  --primary_variant: #3700B3;
+  --secondary: #09DAC6;
+  --secondary_variant: #018786;
+  --background: #fff;
+  --surface: #fff;
+  --error: #B00020;
+}
+
+button {
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+button.text {
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+button.outlined {
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+button.contained {
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+
+.button.primary {
+  background-color: var(--primary);
+}
